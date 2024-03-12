@@ -2,6 +2,7 @@ import queryJsonStr from "./queryJsonStr"
 import base64 from "./base64"
 import delayAsync from "./delayAsync"
 import classNames from "./classNames"
+import cloneDeep from "./cloneDeep"
 import isNil from "./isNil"
 import isNumber from "./isNumber"
 import isString from "./isString"
@@ -25,6 +26,7 @@ const fortea = {
     arrayUpsert,
     base64,
     classNames,
+    cloneDeep,
     delayAsync,
     isArray,
     isBoolean,
@@ -51,6 +53,7 @@ export {
     arrayUpsert,
     base64,
     classNames,
+    cloneDeep,
     delayAsync,
     isArray,
     isBoolean,
