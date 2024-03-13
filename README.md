@@ -1,3 +1,4 @@
+
 <p align="center">
   <img width="180" src="./fortea.png" alt="fortea logo">
 </p>
@@ -21,91 +22,36 @@ library.
 - well tested, with huge test coverage
 - easy to use, simple and clear API
 
-## Current Tools List
-
-<div style="width: 100%;display: flex">
-  <div style="width: 50%;display: inline-block">
-    <ul>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/arrayUpsert/index.ts">arrayUpsert</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/base64/index.ts">base64</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/classNames/index.ts">classNames</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/cloneDeep/index.ts">cloneDeep</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/delayAsync/index.ts">delayAsync</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isArray/index.ts">isArray</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isBoolean/index.ts">isBoolean</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isEmpty/index.ts">isEmpty</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isFunc/index.ts">isFunc</a>
-        </li>
-        <li>
-          <a  href="https://github.com/irychen/fortea/blob/main/src/isInteger/index.ts">isInteger</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isNil/index.ts">isNil</a>
-        </li>
-       <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isNumber/index.ts">isNumber</a>
-        </li>
-    </ul>
-
-  </div>
- <div style="width: 50%;display: inline-block">
-    <ul>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isObject/index.ts">isObject</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isString/index.ts">isString</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/isTokenExpired/index.ts">isTokenExpired</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/map/index.ts">map</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/mergePath/index.ts">mergePath</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/queryJsonStr/index.ts">queryJsonStr</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/skipTake/index.ts">skipTake</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/toBoolean/index.ts">toBoolean</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/toNumber/index.ts">toNumber</a>
-        </li>
-        <li>
-          <a href="https://github.com/irychen/fortea/blob/main/src/toPercentage/index.ts">toPercentage</a>
-        </li>
-    </ul>
-  </div>
-</div>
-
 ## Install
 
 ```bash
-pnpm install fortea
+npm install fortea
 ```
 
+## Tools
 
-
+- [arrayUpsert](https://github.com/irychen/fortea/blob/main/src/arrayUpsert/index.ts)
+- [base64](https://github.com/irychen/fortea/blob/main/src/base64/index.ts)
+- [classNames](https://github.com/irychen/fortea/blob/main/src/classNames/index.ts)
+- [cloneArrayShallow](https://github.com/irychen/fortea/blob/main/src/cloneArrayShallow/index.ts)
+- [cloneDeep](https://github.com/irychen/fortea/blob/main/src/cloneDeep/index.ts)
+- [cloneShallow](https://github.com/irychen/fortea/blob/main/src/cloneShallow/index.ts)
+- [delayAsync](https://github.com/irychen/fortea/blob/main/src/delayAsync/index.ts)
+- [isArray](https://github.com/irychen/fortea/blob/main/src/isArray/index.ts)
+- [isBoolean](https://github.com/irychen/fortea/blob/main/src/isBoolean/index.ts)
+- [isClient](https://github.com/irychen/fortea/blob/main/src/isClient/index.ts)
+- [isEmpty](https://github.com/irychen/fortea/blob/main/src/isEmpty/index.ts)
+- [isFunc](https://github.com/irychen/fortea/blob/main/src/isFunc/index.ts)
+- [isInteger](https://github.com/irychen/fortea/blob/main/src/isInteger/index.ts)
+- [isNil](https://github.com/irychen/fortea/blob/main/src/isNil/index.ts)
+- [isNumber](https://github.com/irychen/fortea/blob/main/src/isNumber/index.ts)
+- [isObject](https://github.com/irychen/fortea/blob/main/src/isObject/index.ts)
+- [isString](https://github.com/irychen/fortea/blob/main/src/isString/index.ts)
+- [isTokenExpired](https://github.com/irychen/fortea/blob/main/src/isTokenExpired/index.ts)
+- [map](https://github.com/irychen/fortea/blob/main/src/map/index.ts)
+- [mergePath](https://github.com/irychen/fortea/blob/main/src/mergePath/index.ts)
+- [queryJsonStr](https://github.com/irychen/fortea/blob/main/src/queryJsonStr/index.ts)
+- [skipTake](https://github.com/irychen/fortea/blob/main/src/skipTake/index.ts)
+- [toBoolean](https://github.com/irychen/fortea/blob/main/src/toBoolean/index.ts)
+- [toNumber](https://github.com/irychen/fortea/blob/main/src/toNumber/index.ts)
+- [toPercentage](https://github.com/irychen/fortea/blob/main/src/toPercentage/index.ts)

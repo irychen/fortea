@@ -29,8 +29,9 @@
         "test": "jest --coverage",
         "build:main": "rollup --config rollup.config.js",
         "clean": "rimraf dist",
-        "build": "npm run format && npm run clean && npm run build:types && npm run build:main",
-        "prepare": "husky install"
+        "build": "npm run format && npm run clean && npm run build:types && npm run build:main && npm run readme",
+        "prepare": "husky install",
+        "readme": "node ./scripts/readme.js"
     },
     "keywords": [
         "base64",
@@ -39,22 +40,22 @@
     ],
     "license": "MIT",
     "devDependencies": {
-        "@babel/preset-env": "^7.23.8",
+        "@babel/preset-env": "^7.24.0",
         "@babel/preset-typescript": "^7.23.3",
         "@rollup/plugin-babel": "^6.0.4",
         "@rollup/plugin-typescript": "^11.1.6",
-        "@types/jest": "^29.5.11",
-        "@types/jsonwebtoken": "^9.0.5",
-        "@types/node": "^20.11.14",
+        "@types/jest": "^29.5.12",
+        "@types/jsonwebtoken": "^9.0.6",
+        "@types/node": "^20.11.26",
         "chalk": "^5.3.0",
         "husky": "^8.0.3",
         "jest": "^29.7.0",
         "jsonwebtoken": "^9.0.2",
-        "lint-staged": "^15.2.0",
+        "lint-staged": "^15.2.2",
         "prettier": "3.2.4",
         "rimraf": "^5.0.5",
-        "rollup": "^4.9.6",
+        "rollup": "^4.13.0",
         "tslib": "^2.6.2",
-        "typescript": "^5.3.3"
+        "typescript": "^5.4.2"
     }
 }

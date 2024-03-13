@@ -4,21 +4,21 @@
  *  http://www.webtoolkit.info/
  *
  **/
-const base64 = {
+export class Base64 {
     // private property
-    _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+    private _keyStr: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
 
     /**
      * public method for encoding
      * @param input
      * @returns string
      */
-    encode: function (input: string) {
+    public encode(input: string): string {
         let output = ""
         let chr1: number, chr2: number, chr3: number, enc1: number, enc2: number, enc3: number, enc4: number
         let i = 0
 
-        input = base64._utf8_encode(input)
+        input = this._utf8_encode(input)
 
         while (i < input.length) {
             chr1 = input.charCodeAt(i++)
@@ -44,14 +44,14 @@ const base64 = {
                 this._keyStr.charAt(enc4)
         }
         return output
-    },
+    }
 
     /**
      * public method for decoding
      * @param input string
      * @returns string
      */
-    decode: function (input: string) {
+    public decode(input: string): string {
         let output = ""
         let chr1: number, chr2: number, chr3: number
         let enc1: number, enc2: number, enc3: number, enc4: number
@@ -79,17 +79,17 @@ const base64 = {
             }
         }
 
-        output = base64._utf8_decode(output)
+        output = this._utf8_decode(output)
 
         return output
-    },
+    }
 
     /**
      * private method for UTF-8 encoding
      * @param text string
      * @returns string
      */
-    _utf8_encode: function (text: string) {
+    private _utf8_encode(text: string): string {
         text = text.replace(/\r\n/g, "\n")
         let utf8text = ""
 
@@ -108,14 +108,14 @@ const base64 = {
             }
         }
         return utf8text
-    },
+    }
 
     /**
      * private method for UTF-8 decoding
      * @param utf8text string
      * @returns string
      */
-    _utf8_decode: function (utf8text: string) {
+    private _utf8_decode(utf8text: string): string {
         let string = ""
         let i = 0
         let c = 0,
@@ -140,7 +140,9 @@ const base64 = {
             }
         }
         return string
-    },
+    }
 }
+
+const base64 = new Base64()
 
 export default base64
