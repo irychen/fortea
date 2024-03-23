@@ -1,6 +1,6 @@
 {
     "name": "fortea",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "some tools for js, save your time for a cup of tea",
     "main": "dist/cjs/index.cjs",
     "module": "dist/esm/index.mjs",
