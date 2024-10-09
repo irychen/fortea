@@ -9,6 +9,7 @@ const config = [
             exports: "named",
             format: "esm",
         },
+        external: ['clsx', 'tailwind-merge', 'react', 'uuid'],
         plugins: [
             babel({
                 babelHelpers: "bundled",
@@ -24,6 +25,7 @@ const config = [
             exports: "named",
             format: "cjs",
         },
+        external: ['clsx', 'tailwind-merge', 'react', 'uuid'],
         plugins: [
             babel({
                 babelHelpers: "bundled",
