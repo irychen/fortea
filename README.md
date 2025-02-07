@@ -32,7 +32,6 @@ npm install fortea
 
 - [arrayUpsert](https://github.com/irychen/fortea/blob/main/src/arrayUpsert/index.ts)
 - [base64](https://github.com/irychen/fortea/blob/main/src/base64/index.ts)
-- [classNames](https://github.com/irychen/fortea/blob/main/src/classNames/index.ts)
 - [cloneArrayShallow](https://github.com/irychen/fortea/blob/main/src/cloneArrayShallow/index.ts)
 - [cloneDeep](https://github.com/irychen/fortea/blob/main/src/cloneDeep/index.ts)
 - [cloneShallow](https://github.com/irychen/fortea/blob/main/src/cloneShallow/index.ts)
